@@ -1,0 +1,14 @@
+run_id=test_i01
+seed=42
+replay_enabled=true
+hidden_size=16
+episodes_per_context=5
+max_steps=50
+gamma=0.95
+learning_rate=0.001
+buffer_capacity=10000
+batch_size=32
+target_update_freq=200
+context_schedule=0,1
+num_activations=50
+num_episodes=10

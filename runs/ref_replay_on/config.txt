@@ -1,0 +1,14 @@
+run_id=ref_replay_on
+seed=42
+replay_enabled=true
+hidden_size=64
+episodes_per_context=300
+max_steps=200
+gamma=0.95
+learning_rate=0.001
+buffer_capacity=10000
+batch_size=32
+target_update_freq=200
+context_schedule=0,1,0
+num_activations=3340
+num_episodes=900
